@@ -1,0 +1,212 @@
+
+body{
+    margin: 0;
+    font-family: Comic Sans MS;
+    overflow: auto;
+    text-align:center;
+}
+#top{
+    background-color: #b4245d;
+    width:100%
+    height: auto;
+    overflow: hidden;
+
+}
+#top p{
+    padding-left:27px;
+    color: #ffffff;
+   
+}
+#top input[type=text]{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 0;
+    margin-right: 20px;
+    font-size: 18px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e72e77;
+    top:10;
+    width: 100%;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: #ff99b3;
+}
+/* Main display photo */
+#banner img{
+    width:100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#banner{
+    position: relative;
+    text-align: center;
+    color: #ffff ;
+    font-size: 40px;
+    font-weight: bold;
+}
+.center{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    padding: 6px;
+}
+
+.Details{
+    height: auto;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: 	#FFB6C1;
+    overflow: auto;
+    color: #ffffff;
+    font-family: "Roboto", Roboto;
+    font-size: 54px;
+    line-height: 1.1em;
+    letter-spacing: -1.4px;
+}
+.Details iframe{
+	float: left;
+	padding: 30px;
+
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.button a{
+	text-decoration: none;
+}
+
+.onethird {
+    width: 29%;
+    float: left;
+    padding: 2%;
+}
+
+.one-third {
+    width: 29%;
+    float: left;
+    padding: 2%;
+    overflow: hidden;
+}
+.one-third img{
+    width: 100%;
+   height: auto;
+   overflow: hidden;
+}
+.clearfix {
+    clear: both;
+}
+.fa {
+  padding: 20px;
+  font-size: 300px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 50px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    nav ul {
+        padding-left: 0;
+    }
+    nav ul li {
+        width: 100%;
+        border-left: 0;
+        border-right: 0;
+    }
+    nav ul li a {
+        padding: 8px 0;
+        font-size: 16px;
+    }
+    .left-col {
+        width: 100%;
+        padding: 0;
+    }
+    .sidebar {
+        width: 100%;
+        padding: 0;
+    }
+    .one-third {
+        width: 100%;
+
+        padding: 0;
+    }
+    .social {
+        font-size: 200%;
+    }
+    p {
+        font-size: 15px;
+    }
+}
+
+#comingSoon{
+    height: auto;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-image: linear-gradient(-45deg, #ac32e4, #7918f2, #4801ff);
+    overflow: auto;
+    color: #ffffff;
+    font-family: "Roboto", Roboto;
+    font-size: 54px;
+    line-height: 1.1em;
+    letter-spacing: -1.4px;
+}
